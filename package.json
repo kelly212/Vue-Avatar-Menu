@@ -1,6 +1,6 @@
 {
   "name": "v-avatar-menu",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "É um componente que combina o v-avatar e o v-menu utilizando Vuetify 3.x,  proporcionando uma visualização mais clara da imagem do avatar",
   "author": "Kelly",
   "main": "src/index.js",

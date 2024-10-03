@@ -58,7 +58,7 @@ export default defineComponent({
                   ]
                }
 			],
-	   // Ou passar a mesma imagem diretamente 
+	   // Ou passar a imagem diretamente 
             imagens:[{src:'https://picsum.photos/seed/picsum/400/300'}],
       }
 	}),
@@ -73,11 +73,7 @@ export default defineComponent({
 * size: (Number) Tamanho do avatar em pixels.
 * rounded: Define o quão redondo será o avatar
 
-#### Events
-* @callback: Evento que é disparado ao clicar no botão de confirmação (OK). No exemplo, a função executar() é chamada quando o usuário confirma a ação.
-
 #### Slots
 Este componente atualmente não utiliza slots.
 
-#### Referências
-* https://primevue.org/confirmpopup/ (based on primevue)
+
