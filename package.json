@@ -1,7 +1,7 @@
 {
   "name": "v-avatar-menu",
-  "version": "1.0.1",
-  "description": "É um componente de confirmação personalizável que exibe um pop-up de confirmação antes de executar ações críticas, como exclusão ou alterações permanentes. Ele é útil para prevenir ações indesejadas, fornecendo ao usuário a chance de confirmar ou cancelar a ação.",
+  "version": "1.0.0",
+  "description": "É um componente que combina o v-avatar e o v-menu utilizando Vuetify 3.x,  proporcionando uma visualização mais clara da imagem do avatar",
   "author": "Kelly",
   "main": "src/index.js",
   "files": [
