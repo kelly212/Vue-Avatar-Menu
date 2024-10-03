@@ -40,6 +40,7 @@ import { defineComponent } from 'vue';
 export default defineComponent({
     data: () => ({
          item: {
+            // Voce pode passar a mesma imagem com tamanhos diferentes 
             urls_imagem:[
                {
                   "anexo": "52c94d54-a9c0-4599-8f0e-2d391bb4c010",
@@ -57,6 +58,7 @@ export default defineComponent({
                   ]
                }
 			],
+			// Ou passar a mesma imagem diretamente 
             imagens:[{src:'https://picsum.photos/seed/picsum/400/300'}],
       }
 	}),
