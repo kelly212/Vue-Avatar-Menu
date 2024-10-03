@@ -58,44 +58,13 @@ export default defineComponent({
                   ]
                }
 			],
-			// Ou passar a mesma imagem diretamente 
+	   // Ou passar a mesma imagem diretamente 
             imagens:[{src:'https://picsum.photos/seed/picsum/400/300'}],
       }
 	}),
 });
 </script>
 
-```
-
-#### Tamanhos diferentes 
-Voce pode passar a mesma imagem com tamanhos diferentes 
-
-```json 
-  item: {
-            urls_imagem:[
-               {
-                  "anexo": "52c94d54-a9c0-4599-8f0e-2d391bb4c010",
-                  "nome": "52c94d54-a9c0-4599-8f0e-2d391bb4c010_original.jpg",
-                  "capa": true,
-                  "urls": [
-                     {
-                        "tamanho": "50",
-                        "url": "https://picsum.photos/seed/picsum/400/300"
-                     },
-                     {
-                        "tamanho": "original",
-                        "url": "https://picsum.photos/seed/picsum/400/300"
-                     }
-                  ]
-               }
-			],
-      }
-```
-Ou passar a mesma imagem diretamente 
-```json 
-  item: {
-         imagens:[{src:'https://picsum.photos/seed/picsum/400/300'}],
-      }
 ```
 
 
